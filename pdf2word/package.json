@@ -1,0 +1,26 @@
+{
+  "name": "pdf2word-ultra",
+  "version": "1.0.0",
+  "description": "Convert PDF files to editable Word documents with preserved layout",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "stripe": "^17.5.0",
+    "pdf-parse": "^1.1.1",
+    "docx": "^9.0.2",
+    "formidable": "^3.5.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.11"
+  }
+}
